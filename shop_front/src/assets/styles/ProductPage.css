@@ -1,0 +1,50 @@
+
+
+.card_item{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 150px;
+
+    @media (max-width: 1024px) {
+        flex-direction: column;
+    }
+}
+
+.card_item--content{
+    padding-left: 30px;;
+    width: 50%;
+
+    @media (max-width: 1024px) {
+        width: 100%;
+        padding-left: 0;
+        margin-top: 20px;;
+    }
+    
+}
+
+.card_edit{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.card_edit textarea{
+    height: 20vh;
+    border-radius: 5px;;
+    font-size: 14px;
+    margin-top: 5px;;
+}
+
+
+.card_edit input{
+    width: 100%;
+}
+
+.card_item img{
+    width: 50%;
+
+    @media (max-width: 1024px) {
+        width: 100%;
+    }
+}
